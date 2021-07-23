@@ -10,6 +10,15 @@
     "resolveJsonModule": true,
     "strict": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "baseUrl": ".",
+    "paths": {
+      "@assets": ["./assets"],
+      "@components": ["./src/components"],
+      "@elements": ["./src/elements"],
+      "@navigation": ["./src/navigation"],
+      "@screens": ["./src/screens"],
+      "@utils": ["./src/utils"],
+    }
   }
 }
