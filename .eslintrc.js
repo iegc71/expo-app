@@ -18,6 +18,8 @@ module.exports = {
 	},
 	plugins: ['react', '@typescript-eslint', 'prettier'],
 	rules: {
+		'no-console': process.env.NODE_ENV === 'production' ? 'off' : 'off',
+		'no-debugger': process.env.NODE_ENV === 'production' ? 'off' : 'off',
 		'prettier/prettier': 'error',
 		'arrow-body-style': 'off',
 		'prefer-arrow-callback': 'off',
@@ -44,3 +46,5 @@ module.exports = {
 		},
 	},
 };
+
+// https://github.com/prettier/eslint-plugin-prettier/issues/102
