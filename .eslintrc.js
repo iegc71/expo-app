@@ -24,6 +24,7 @@ module.exports = {
 		'arrow-body-style': 'off',
 		'prefer-arrow-callback': 'off',
 		'no-use-before-define': 'off',
+		'no-nested-ternary': 'off',
 		'react/jsx-filename-extension': [
 			1,
 			{ extensions: ['.js', '.jsx', '.ts', '.tsx'] },
